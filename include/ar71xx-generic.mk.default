@@ -1,4 +1,4 @@
-## Build rules for ar71xx-generic
+## Build rules for ar71xx-generic DEFAULT FILE
 
 TARGET=ar71xx
 TARGET_TYPE=generic
@@ -92,4 +92,3 @@ WDR4300: \
 
 WR902AC: \
 	lede-$(LEDE_VERSION)-ar71xx-generic-tl-wr902ac-v1-squashfs-factory.bin \
-	lede-$(LEDE_VERSION)-ar71xx-generic-tl-wr902ac-v1-squashfs-sysupgrade.bin
